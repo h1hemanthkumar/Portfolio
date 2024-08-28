@@ -1,0 +1,96 @@
+.navbar
+{   background-color: rgba(120, 8, 194, 0.932);
+}
+.nav
+{   color:white;
+}
+#mid{
+    background-color:rgb(120, 8, 194);
+}
+
+.main
+{   color:white;
+}
+#img
+{   border-radius:50%;
+    box-shadow:0 0 10px 2px black;
+}
+#ig
+{   width:50px;
+    border-radius:50%;
+}
+#profe
+{   font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.skills-im
+{   height:300px;
+    width:300px;
+}
+#under
+{   border-bottom-width:3px;
+    border-bottom-color:black;
+    border-bottom-style:solid;
+    display:inline;
+}
+.fi
+{   background-color:white;
+    color:black;
+    padding:10px;
+    text-decoration:none;
+    border-radius:50%;
+    text-align:center;
+    font-size:30px;
+    
+}
+#skills1,#skills2,#skills3,#skills4,#skills5,#skills6
+{   
+    font-size:300px;  
+    border-radius:none;
+    padding:10px;
+    margin-bottom:5px;
+}
+
+#skills1
+{   color:white;
+    background-color:#1B73BA;
+}
+#skills2
+{   color:white;
+    background-color:#E44D26;
+    font-size:240px;
+}
+#skills3
+{   color:blue;
+    background-color:white;
+}
+.progress-bar
+{   background:linear-gradient(45deg,rgba(0, 0, 0, 0.692),rgba(120, 8, 194, 0.971));
+    border-radius:22px;
+}
+.progress
+{   height:30px;
+    border-radius:22px;
+    width:50%;
+    margin: 0 auto;
+}
+.col-12
+{   margin-left:auto;
+}
+
+.card
+{   
+    color:black;
+    padding:10px;
+    border-radius:22px;
+    flex:0,0,auto;
+}  
+#wrapper
+{   display:flex;
+    overflow-x:auto;  
+    white-space:nowrap;
+}
+#wrapper::-webkit-scrollbar
+{
+    width:0;
+}
