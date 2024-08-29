@@ -94,3 +94,19 @@
 {
     width:0;
 }
+.accordion-button:not(.collapsed) {
+    background:linear-gradient(45deg,rgba(120, 8, 194, 0.971),rgba(0, 0, 0, 0.616)); /* Change this to your desired color */
+    color: white; /* Optional: Change text color */
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    filter: invert(1); /* Optional: Change the arrow color */
+  }
+  .accordion-button{
+    font-weight:bolder;
+  }
+  .accordion-item
+  {
+    border-color:purple;
+    border-width:2px;
+  }
