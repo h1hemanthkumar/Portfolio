@@ -1,11 +1,16 @@
 .navbar
-{   background-color: rgba(120, 8, 194, 0.932);
+{   background-color: rgb(120, 8, 194);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .nav
 {   color:white;
 }
 #mid{
     background-color:rgb(120, 8, 194);
+    margin-top:80px;
 }
 
 .main
